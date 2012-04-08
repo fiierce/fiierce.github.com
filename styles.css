@@ -1,0 +1,15 @@
+body {
+    background-color: #C0C0C0;
+    font-family: 'Myriad Pro';
+}
+
+#center {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 3cm;
+}
