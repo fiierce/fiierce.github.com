@@ -10,7 +10,7 @@
 
 body {
     background-image: url("img/owl.jpg");
-    background-position: bottom
+    background-position: bottom;
     background-repeat: no-repeat;
     font-family: 'Helvetica';
 }
@@ -24,7 +24,7 @@ h1 {
     font-family: 'Helvetica';
     font-size: 72px;
     color: #1E1E1E;
-    text-shadow: 1px 1px #000000,
+    text-shadow: 1px 1px #000000;
 }
 
 p {
