@@ -1,6 +1,94 @@
+ html, body, div, span,
+    h1, h2, h3, h4, h5, h6, p,
+    img, ul, li, footer, header {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
 body {
-    background-color: #C0C0C0;
-    font-family: 'Myriad Pro';
+    background-image: url("img/owl2.png");
+    background-repeat: no-repeat;
+    font-family: 'Helvetica';
+}
+
+footer {
+    font-family: 'Helvetica';
+    position: absolute
+}
+
+h1 {
+    font-family: 'Helvetica';
+    font-size: 72px;
+    color: #1E1E1E;
+    text-shadow: 1px 1px #000000,
+}
+
+p {
+    text-indent: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #959595;
+    }
+    
+a:hover {
+    color: #282828;
+    }
+    
+ul {
+    margin: 20px 0 0 -20px;
+    list-style: none;
+    }
+    
+li {
+    margin-left:20px;
+    float:left;
+    }
+    
+    
+#twitter-logo {
+    background-image: url("img/twi.png");
+    display: block;
+    width:32px;
+    height:32px;
+    text-indent:-9999px;
+    }
+    
+#facebook-logo {
+    background-image: url("img/fb.png");
+    display: block;
+    width:32px;
+    height:32px;
+    text-indent:-9999px;
+    }
+    
+#google-logo {
+    background-image: url("img/go.png");
+    display: block;
+    width:32px;
+    height:32px;
+    text-indent:-9999px;
+    }
+
+#container {
+    position: absolute;
+    margin: 50px 0 0  200px;
+    width: 600px;
+}
+
+#bottom {
+    position: relative;
+    margin: auto;
+    text-align: left;
+    left: 240px;
+    right: 0;
+    top: 21.5cm;
+    bottom: 0;
+    height: 3cm;
 }
 
 #center {
