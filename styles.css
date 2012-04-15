@@ -9,11 +9,7 @@
     }
 
 body {
-<<<<<<< HEAD
     background-image: url("img/owl2.png");
-=======
-    background-image: url("img/owl.jpg");
->>>>>>> 1aa1de5e9e92e23ca95c810cf0b472931c595582
     background-repeat: no-repeat;
     font-family: 'Helvetica';
 }
@@ -27,11 +23,7 @@ h1 {
     font-family: 'Helvetica';
     font-size: 72px;
     color: #1E1E1E;
-<<<<<<< HEAD
     text-shadow: 1px 1px #000000,
-=======
-    text-shadow: 1px 1px #000000;
->>>>>>> 1aa1de5e9e92e23ca95c810cf0b472931c595582
 }
 
 p {
