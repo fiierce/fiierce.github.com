@@ -92,6 +92,14 @@ li {
     text-indent:-9999px;
     }
 
+#linkedin-logo {
+    background-image: url("img/in.png");
+    display: block;
+    width:32px;
+    height:32px;
+    text-indent:-9999px;
+    }
+
 #container {
     position: absolute;
     margin: 50px 0 0  200px;
