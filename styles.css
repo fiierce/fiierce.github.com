@@ -45,60 +45,27 @@ a {
     color: #959595;
     }
     
-a:hover {
-    color: #282828;
-    }
-    
-ul {
-    margin: 20px 0 0 -20px;
-    list-style: none;
-    }
-    
-li {
-    margin-left:20px;
-    float:left;
-    }
-    
-    
-#twitter-logo {
-    background-image: url("img/twi.png");
-    display: block;
-    width:32px;
-    height:32px;
-    text-indent:-9999px;
-    }
-    
-#facebook-logo {
-    background-image: url("img/fb.png");
-    display: block;
-    width:32px;
-    height:32px;
-    text-indent:-9999px;
-    }
-    
-#google-logo {
-    background-image: url("img/go.png");
-    display: block;
-    width:32px;
-    height:32px;
-    text-indent:-9999px;
-    }
+.list { margin-bottom:30px; }
+    .list a { font-size: 17px; }
+    .list li { list-style: none; }
 
-#society6-logo {
-    background-image: url("img/s6.png");
-    display: block;
-    width:32px;
-    height:32px;
-    text-indent:-9999px;
+    .social ul { margin: 20px 0 0 -20px; list-style: none; }
+    .social li { margin-left:20px; float:left; }
+    .social a {
+        display:block;
+        width:32px;
+        height:32px;
+        text-indent:-9999px;
+        opacity: 0.6;
     }
+    .social a:hover { opacity: 1.0; }
 
-#linkedin-logo {
-    background-image: url("img/in.png");
-    display: block;
-    width:32px;
-    height:32px;
-    text-indent:-9999px;
-    }
+    .social .google { background: url(img/all.png) 0 0; }
+    .social .facebook { background: url(img/all.png) -32px 0; }
+    .social .twitter { background: url(img/all.png) -64px 0; }
+    .social .linkedin { background: url(img/all.png) -96px 0; }
+    .social .github { background: url(img/all.png) -128px 0; }
+    .social .society6 {background: url(img/s6.png) -128px 0; }
 
 #container {
     position: absolute;
