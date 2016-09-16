@@ -13,11 +13,11 @@ body {
     background-image: url("img/owl.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    font-family: 'Helvetica';
+    font-family: 'Myriad Pro';
 }
 
 footer {
-    font-family: 'Helvetica';
+    font-family: 'Myriad Pro';
     position: relative;
     margin: auto;
     text-align: left;
@@ -30,7 +30,7 @@ footer {
 }
 
 h1 {
-    font-family: 'Helvetica';
+    font-family: 'Myriad Pro';
     font-size: 72px;
     color: #1E1E1E;
     text-shadow: 1px 1px #000000;
